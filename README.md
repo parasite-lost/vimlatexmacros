@@ -41,7 +41,7 @@ other math constructs:
     `/  -> \frac{<++>}{<++>}<++>
     `_  -> \bar{<++>}<++>
 
-greek symbols: usually prefix first letter with `````
+greek symbols: usually prefix first letter with `` ` ``
 
     `a  -> \alpha
     `D  -> \Delta

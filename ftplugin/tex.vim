@@ -1,5 +1,14 @@
-" backtick for
-let g:Tex_Leader = '`'
+"" Borrowed from vim-latex Suite
+"" github.com/vim-latex/vim-latex/
+
+" ==============================================================================
+" mappings
+" ==============================================================================
+" {{{
+" if g:Tex_Leader is not set, default to backtick
+if !exists('g:Tex_Leader')
+    let g:Tex_Leader = '`'
+endif
 
 if !exists('s:doneMappings')
 	let s:doneMappings = 1

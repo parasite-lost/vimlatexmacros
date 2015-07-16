@@ -20,20 +20,29 @@ worry about moving to the right position when expaanding many macros inside each
 Curser starts automatically at the first token.
 
 subscript and superscript
+
     --  ->  _{<++>}<++>
     ^^  ->  ^{<++>}<++>
+
 brackets
+
     ()  ->  (<++>)<++>
     []  ->  [<++>]<++>
     {}  ->  {<++>}<++>
+
 mathmode brackets
+    
     ((  -> \left( <++> \right) <++>
     [[  -> \left[ <++> \right] <++>
     {{  -> \left\{ <++> \right\} <++>
+
 other math constructs:
+
     `/  -> \frac{<++>}{<++>}<++>
     `_  -> \bar{<++>}<++>
+
 greek symbols: usually prefix first letter with ``(`)``
+
     `a  -> \alpha
     `D  -> \Delta
 
